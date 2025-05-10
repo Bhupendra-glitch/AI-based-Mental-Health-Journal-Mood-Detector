@@ -1,0 +1,1 @@
+# AI-based-Mental-Health-Journal-Mood-Detector
