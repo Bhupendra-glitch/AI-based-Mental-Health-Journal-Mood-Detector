@@ -1,38 +1,66 @@
-# ☁️ Rainfall Prediction using Machine Learning
+#  Rock vs Mine Prediction using Machine Learning 
 
-This project predicts whether rainfall will occur based on meteorological data using a machine learning classification model.
+Welcome to the **Rock vs Mine Predictor** project!  
+This machine learning model uses sonar signal data to predict whether an object is a **rock** or a **mine** — a classic binary classification task.
 
-##  Overview
+---
 
-Rainfall prediction is an important aspect of weather forecasting that helps in planning agricultural activities, disaster management, and water resource management. In this project, a classification model is trained on weather data to predict rainfall.
+##  About the Project
 
-##  Algorithms Used
+-  **Objective**: Classify objects detected by sonar as either **Rock** or **Mine**
+-  **Dataset**: UCI Sonar Dataset (60 features per instance)
+-  **ML Model**: Logistic Regression / SVM / Random Forest (can be customized)
+-  **Tech Used**: Python, Pandas, NumPy, Scikit-learn, Jupyter Notebook
 
-- Logistic Regression
-- Decision Tree
-- Random Forest
-- Support Vector Machine
+---
 
-##  Dataset
+##  Dataset Details
 
-- Data https://1drv.ms/x/c/2b0ffd83beaaf2d2/ERmvjepGuuBIuxMWTrnhpjYBRlhEjFdmPZua_ZZBQnK-sQ?e=YFePFp
-- Features include:
-  - Temperature
-  - Humidity
-  - Wind speed
-  - Rain Today
-  - Rain Tomorrow (Target)
+-  **Total Samples**: 208  
+-  **Features**: 60 numeric values (representing sonar signal energy)
+-  **Target Labels**:  
+  - `R` → Rock  
+  - `M` → Mine  
 
-##  Tech Stack
+Dataset Source: https://1drv.ms/x/c/2b0ffd83beaaf2d2/Eex_Ujmf3nhDmoB_hv6OuXsBjU-poWhxvOeJtyO4_SaEPg?e=wLhKcK 
 
-- Python
-- Pandas, NumPy
-- scikit-learn
-- Matplotlib, Seaborn (for visualization)
+---
 
-##  How to Run
+##  Folder Structure
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Bhupendra-glitch/Rainfall-Prediction.git
+Rock-vs-Mine-Prediction-with-Python/
+│
+
+├── rock_vs_mine.ipynb # Main notebook
+
+├── sonar.all-data.csv # Dataset file
+
+├── README.md # This file
+
+
+---
+## How to Run
+
+**1.  Clone the repository:**
+
+
+git clone https://github.com/Bhupendra-glitch/Rock-vs-Mine-Prediction-with-Python.git
+
+**2. Install required packages:**
+
+ pip install pandas 
+ pip install numpy 
+ pip install scikit-learn
+
+ **3. Run the notebook:**
+
+ jupyter notebook rock_vs_mine.ipynb
+
+
+
+
+
+
+
+
 
